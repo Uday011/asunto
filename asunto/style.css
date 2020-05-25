@@ -1,0 +1,39 @@
+*{
+	padding: 0px;
+	margin:0px;
+}
+.zoom{
+  transition: transform .9s;
+  overflow: hidden;
+}
+.zoom:hover{
+	overflow: hidden;
+	transform: scale(1.1); 
+}
+.about{
+	background-image: url('images/about.jpeg');
+	background-size: 100%,100%;
+	padding: 20px;
+}
+.explore{
+	border: 2px solid #ec7144;padding: 15px 30px;color: #ec7144;border-radius: -10px; font-size: 18px;font-weight: 500;background-color: transparent;
+	margin-bottom: 20px;
+}
+.explore:hover{
+	border: none;
+	text-decoration: none;
+	background-color: #ec7144;
+	color: white;
+}
+.foot-a{
+	font-size: 18px;color: #cbc8c8;
+	animation-name: footerlink;
+	animation-duration: 3s;
+}
+.foot-a:hover{
+    text-decoration: none;
+	color: #ec7144;
+	top: 0;
+	left: 10px;
+
+}
