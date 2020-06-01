@@ -40,7 +40,7 @@
 .sub-btn {
 	padding: 5px 10px;
     height: 50px;
-    width: 80%;
+    width: 200px;
     font-size: 17px;
     font-weight: 800;
     font-family: 'Rajdhani', sans-serif;
@@ -49,7 +49,16 @@
     color: #ec7144;
     border-radius: 0;
     text-transform: uppercase;
+    position: relative;
 }
+.sub-btn:hover{
+	animation-name:box;
+    animation-duration: .3s;
+	animation-iteration-count:1;
+	animation-fill-mode: forwards;
+	animation-timing-function: linear;
+}
+
 .box{
 	color: #cbc8c8;
 	font-weight: 20px;
@@ -60,10 +69,12 @@
 	text-decoration: none;
 	color: #ec7144;
 	animation-name: box;
-	animation-duration: .3s;
+	animation-duration: .6s;
 	animation-iteration-count:1;
 	animation-fill-mode: forwards;
-	animation-timing-function: linear;
+	animation-timing-function: ease;
+	animation-delay: .1s;
+	animation-play-state: initial;
 }
 @keyframes box{
 	0%{
@@ -73,7 +84,7 @@
 
 	100%{
 		top: 0;
-		left: 20px;
+		left: 10px;
 	}
 
 }
@@ -117,5 +128,11 @@
     animation-duration: .3s;
 	animation-iteration-count:1;
 	animation-fill-mode: forwards;
-	animation-timing-function: linear;
+	animation-timing-function: ease-in-out;
+}
+
+.foot li{
+	margin-bottom: 14px;
+	text-transform: capitalize;
+	font-weight: 400;
 }
