@@ -4,7 +4,6 @@
 }
 .zoom{
   transition: transform .9s;
-  overflow: hidden;
 }
 .zoom:hover{
 	overflow: hidden;
