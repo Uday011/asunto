@@ -191,6 +191,11 @@ body a, .btn, button {
 .btn:not(:disabled):not(.disabled) {
     cursor: pointer;
 }
+.ico{
+  font-size: 50px;
+  align-self: center;
+  margin-top: 20px;
+}
 
 @media(min-width: 300px) and (max-width: 414px){
 .banner-form button.btn, a.btn {
@@ -244,6 +249,15 @@ body a, .btn, button {
     line-height: 1.9em;
     letter-spacing: 1px;
 }
+
+.about{
+  margin-top: 94px;
+}
+.navbar-brand{
+  height: 64px;
+  width: 50%;
+
+}
 @media (min-width: 300px) and (max-width: 600px){
   .info > div{
     padding: 20px 10px 20px 10px;
@@ -253,7 +267,6 @@ body a, .btn, button {
   font-family: 'Open Sans', sans-serif;
     font-weight: 300;
 }
-
 }
 .bg{
   background-image: url('images/bg2.jpg');
@@ -267,14 +280,17 @@ body a, .btn, button {
 }
 @media (min-width: 300px) and (max-width: 480px){
 .navbar-brand{
-  height: 35px;
-  width: 60%;
+  height: 40px;
+  width: 65%;
 
 }
 }
+.card-con{
+  margin-top: -150px;
+}
 .box{
   border-radius: 0;
-  box-shadow: 10px 7px 20px 8px #cccccc73;
+  box-shadow: .2px 13px 10px #ccc;
   border-left: 4px solid #ffac00;
   border-top: 4px solid #ffac00;
   border-right: 4px solid #ffac00;
@@ -293,7 +309,7 @@ body a, .btn, button {
   text-decoration: none;
 }
 .jumbo{
-  padding: 20px;border-radius: 5px;
+  padding: 20px;border-radius: 5px;margin-top: -20px;
 }
 .jumbotron1{
   background-color: #135a90;
@@ -348,6 +364,10 @@ body a, .btn, button {
 }
 .jumbo{
   padding: 5px;
+  margin-top: 20px;
+}
+.card-con{
+  margin-top: 10px;
 }
 .jumbotron1{
   text-align: center;
@@ -368,4 +388,21 @@ body a, .btn, button {
   border-bottom-left-radius: 5px;border-bottom-right-radius: 5px;
   border-top-right-radius: 0px;
 }
+}
+
+
+.myanim{
+  position: relative;
+  background-color: #333a65;
+  color: white;
+  transition: transform .2s;
+  animation-duration: .2s;
+
+}
+.myanim:hover, .myanim:focus{
+  color: #ffac00;
+  transform: scale(1.2);
+}
+.animate__animated{
+  animation-duration: 2s;
 }
